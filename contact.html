@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149363779-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149363779-1');
+    </script>
+
+</head>
+<body>
+    <div class="skip"><a href="#content">Skip to Main Content</a></div>
+    <!-- <img src="../images/cafe.jpg" alt="cafe background"> -->
+    <header class="contact-img">
+        <div class="main">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="title">
+            <h1 class="menu-h1">CONTACT US</h1>
+        </div>
+    </header>
+    <main>
+        <div class="hours-contact">
+            <div class="hours">
+                <h1 id="content">Hours</h1>
+                    <p>
+                        Monday 7:00 am - 8:00pm<br>
+                        Tuesday 7:00 am - 8:00pm<br>
+                        Wednesday 7:00 am - 8:00pm<br>
+                        Thursday 7:00 am - 8:00pm<br>
+                        Friday 7:00 am - 8:00pm<br>
+                        Saturday 8:30 am - 6:00pm<br>
+                        Sunday 8:30 am - 6:00pm
+                    </p>
+            </div>
+
+            <form action="https://formspree.io/f/mdoykveb" method="POST">
+                <fieldset class="whole-form">
+                  <legend>Sample Form</legend>
+              
+                <div class="container">
+                  <label for="fullname">Your Name</label>
+                  <input type="text" name="name" id="fullname" placeholder="Enter Your Name"><br>
+              
+                  <label for="email">Your Email</label>
+                  <input type = "email" name="email" id="email"><br>
+              
+                  <label for="msg">Leave A Message</label>
+                  <textarea placeholder="Enter your message" name="message" id="msg"></textarea><br>
+              
+                  <input type="submit"></input>    
+                </div>
+              </fieldset>
+              </form> 
+        </div>
+    </main>
+    
+</body>
+<footer class="footer">
+    <p>&copy; Sweet Tarts Cafe 2021</p>
+</footer>
+</html>
